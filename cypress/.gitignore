@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Cypress cache & logs
+.cypress_cache/
+cypress/videos/
+cypress/downloads/
+
+# Cypress screenshots and snapshots
+cypress/screenshots/
+cypress/snapshots/
+!cypress/snapshots/.gitkeep
+
+# Optional: Save only baseline if needed
+# Uncomment below line if you want to exclude diffs only
+# cypress/snapshots/__diff_output__/
+
+# Output reports (if added later)
+mochawesome-report/
+allure-results/
+allure-report/
+
+# Environment files
+.env
+.env.local
+
+# Mac/Linux system files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
